@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <h2><label for="task">Enter task: </label><input type="text" id="task" name="task" placeholder='e.g. "feed dog"'><button onClick="addTask()">Add</button></h2>
+    <div id="task-list">
+      <ul>
+      </ul>
+    </div>
+    <button onclick="deleteAllItems()">Clear All</button>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
+
+

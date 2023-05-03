@@ -1,0 +1,41 @@
+body {
+  max-width: fit-content;
+  
+}
+
+#task {
+  text-align: center;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+ul li {
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  border: 2px;
+}
+
+ul button {
+  color: black;
+  background-color: white;
+  height:30px;
+  width:30px;
+  
+}
+
+.item-buttons {
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
